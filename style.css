@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Anek Devanagari;
+}
+body{
+    padding: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    gap: 0.5rem;
+}
+
+label{
+    font-weight: bold;
+}
+
+input, select{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+button{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor:pointer;
+}
